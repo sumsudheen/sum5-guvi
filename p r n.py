@@ -1,11 +1,11 @@
-s=int(input())
-temp=s
-rev=0
-while(s>0):
-  dig=s%10
-  rev=rev*10+dig
-  s=s//10
-if(temp==rev):
+v=int(input())
+temp=v
+reverse=0
+while(v>0):
+  digit=v%10
+  reverse=reverse*10+digit
+  v=v//10
+if(temp==reverse):
 	print("yes")
 else:
 	print("no")
